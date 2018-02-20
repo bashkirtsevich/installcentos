@@ -2,7 +2,7 @@ Install RedHat OpenShift Origin in your development box.
 
 ## Installation
 
-1. Create a VM as explained in [http://www.youtube.com/watch?v=-OOnGK-XeVY](this video) by Grant Shipley
+1. Create a VM as explained in [this video](http://www.youtube.com/watch?v=-OOnGK-XeVY) by Grant Shipley
 
 2. Define mandatory variables for the installation process
 
@@ -28,7 +28,7 @@ $ export DISK="/dev/sda"
 3. Run the automagic installation script as root:
 
 ```
-curl https://raw.githubusercontent.com/gshipley/installcentos/master/install-openshift.sh | /bin/bash
+curl https://raw.githubusercontent.com/bashkirtsevich/openshift-origin-installcentos/master/install-openshift.sh | /bin/bash
 ```
 
 ## Development
@@ -37,6 +37,6 @@ For development it's possible to switch the script repo
 
 ```
 # Change location of source repository
-$ export SCRIPT_REPO="https://raw.githubusercontent.com/gshipley/installcentos/master"
+$ export SCRIPT_REPO="https://raw.githubusercontent.com/bashkirtsevich/openshift-origin-installcentos/master"
 $ curl $SCRIPT_REPO/install-openshift.sh | /bin/bash
 ```
